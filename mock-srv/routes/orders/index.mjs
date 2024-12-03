@@ -8,3 +8,4 @@ export default async function (fastify, opts) {
       socket.send(JSON.stringify({ id: "A1", total: 3 }));
     }
   )};
+
